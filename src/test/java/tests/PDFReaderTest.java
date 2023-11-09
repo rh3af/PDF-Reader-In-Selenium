@@ -32,7 +32,7 @@ import org.testng.annotations.Test;
 public class PDFReaderTest {
 
 	WebDriver driver;
-	String url = "file:///Users/naveenautomationlabs/Desktop/DEVOPS.pdf";
+	String url = "file:///./DEVOPS.pdf";
 
 	@BeforeTest
 	public void setup() {

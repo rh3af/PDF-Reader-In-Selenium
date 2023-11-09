@@ -14,7 +14,7 @@ public class PDFImageTest {
 	public void pdfImageTest() throws IOException {
 		
 		PDDocument document = null;
-        String fileName = "/Users/naveenautomationlabs/Desktop/hdfc.pdf";
+        String fileName = "/hdfc.pdf";
         try
         {
             document = PDDocument.load( new File(fileName) );

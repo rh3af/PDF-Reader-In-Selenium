@@ -16,8 +16,7 @@ public class PDFImagesTest {
 	
 	@Test
 	public void pdfImageTest() throws Exception {
-//		String url = "file:///Users/naveenautomationlabs/Desktop/1330_Johnson.pdf";
-//
+
 //		URL pdfUrl = new URL(url);
 //		URLConnection urlConnection = pdfUrl.openConnection();
 //		urlConnection.addRequestProperty("User-Agent", "Mozilla");

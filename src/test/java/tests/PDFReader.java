@@ -19,8 +19,8 @@ import org.apache.pdfbox.pdmodel.graphics.form.PDFormXObject;
 import org.apache.pdfbox.pdmodel.graphics.image.PDImageXObject;
 
 /**
- * 
- * @author naveenautomationlabs
+ *
+ * @author Hemanth C
  *
  */
 public class PDFReader {
@@ -30,9 +30,7 @@ public class PDFReader {
 		return getImagesFromPDF(document).size();
 	}
 	
-	/*
-	 * get the list of PDF images
-	 */
+
 	public List<RenderedImage> getImagesFromPDF(PDDocument document) throws IOException {
 		List<RenderedImage> images = new ArrayList<>();
 		for (PDPage page : document.getPages()) {
